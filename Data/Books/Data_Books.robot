@@ -1,0 +1,2 @@
+*** Variables ***
+${bookName}                 Speaking JavaScript

@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run robo tests",
+            "command": "robot",
+            "options": {
+                "cwd": "${workspaceFolder}/<your-folder-containing-yur-tests>"
+            },
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        }
+    ],
+    "dependencies": {
+        "chrome": "^0.1.0",
+        "driver": "^1.0.0"
+    }
+}
